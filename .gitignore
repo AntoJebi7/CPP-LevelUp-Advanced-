@@ -1,0 +1,71 @@
+# General
+*.log
+*.swp
+*.DS_Store
+*.bak
+*.tmp
+*.~*~
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+Makefile
+
+# Compiled object files, libraries, executables
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# CLion-specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Debug files
+*.dSYM/
+*.core
+*.stackdump
+
+# Temporary files generated during builds
+*.out
+*.app
+*.log
+
+# Coverage and testing files
+*.gcno
+*.gcda
+*.gcov
+Testing/
+test-results/
+
+# Backup files
+*.old
+*.orig
+*.rej
+
+# Exclude user-specific files
+*.user
+*.workspace
+
+# Ignore any custom configuration files
+*.conf
+*.cfg
+
+# Cache files
+*.cache
+
+# Other IDE or editor files
+.vscode/
+.vscode/*
+
+# Python bytecode (if you use Python scripts)
+__pycache__/
+*.pyc
+*.pyo
