@@ -17,5 +17,5 @@ foreach(SOURCE_FILE ${CPP_FILES})
 
     # Add an executable for each .cpp file
     add_executable(${EXEC_NAME} ${SOURCE_FILE}
-            main.cpp)
+            )
 endforeach()

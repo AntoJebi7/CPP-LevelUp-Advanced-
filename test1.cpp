@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int main() {
-    cout<<"hello";
-    cout<<"branch anto";
+    cout<<"hello from test";
     return 0;
 }
