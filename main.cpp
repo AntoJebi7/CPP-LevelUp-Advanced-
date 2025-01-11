@@ -1,10 +1,10 @@
 #include<iostream>
+#include<string>
 using namespace std;
 int main() {
-    cout<<"hello"<<"\n";
-    int a = 10, c = 78;
-    char b ='a';
-    cout<<a+c<<"\n";
-    cout<<c*2 ;
+    string a;
+    cout<<"enter name"<<endl;
+    getline(cin,a);
+    cout<<a<<endl;
     return 0;
 }
